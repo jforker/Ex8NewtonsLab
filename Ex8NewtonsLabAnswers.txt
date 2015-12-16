@@ -1,0 +1,105 @@
+8.1
+When running the program, the bodies do not move.
+
+8.2
+void sunAndPlanet()
+Creates a scenario that involves a sun and a planet.
+void sunAndTwoPlanets()
+Creates a scenario that involves two planets and a sun.
+void sunPlanetMoon()
+Creates a scenario that invloves a sun, a planet, and a moon.
+
+8.3
+void act()
+Doesn't appear to do anything.
+getMass()
+Returns the double value of the Body's Mass.
+
+8.4
+Mass of Sun: 240.0
+Mass of Moon: 0.8
+Mass of Planet: 4.2
+
+8.6
+void accelerate(double factor)
+void addToVelocity(Vector boost)
+double getExactX()
+double getExactY()
+double getSpeed()
+void invertHorizontalVelocity()
+void invertHorizontalVelocity()
+void invertVerticalVelocity()
+void move()
+void setLocation(int x, int y)
+void setLocation(double x, double y)
+
+8.7
+The setLocation method appears twice and accepts two different sets of parameters.  One method accepts an int x and y value, and the other accepts a double x and y value.
+
+8.11
+The code compiles and executes, because the variable mass is never assigned a value, so it returns its default value.
+
+8.12
+speed: double 1.0
+direction: moving to the right
+
+8.13
+They all move slowly to the right.
+
+8.14
+The sun remains in the same place and the planets move the way their initial movement and speed is defined in their respective methods within the Space class.
+
+8.15
+public Body()
+    {
+        this (20, 300, new Vector(180, 1.0), defaultColor);
+    }
+
+8.17
+7 Constructors
+Color(ColorSpace cspace, float[] components, float alpha)
+Creates a color in the specified ColorSpace with the color components specified in the float array and the specified alpha.
+Color(float r, float g, float b)
+Creates an opaque sRGB color with the specified red, green, and blue values in the range (0.0 - 1.0).
+Color(float r, float g, float b, float a)
+Creates an sRGB color with the specified red, green, blue, and alpha values in the range (0.0 - 1.0).
+Color(int rgb)
+Creates an opaque sRGB color with the specified combined RGB value consisting of the red component in bits 16-23, the green component in bits 8-15, and the blue component in bits 0-7.
+Color(int rgba, boolean hasalpha)
+Creates an sRGB color with the specified combined RGBA value consisting of the alpha component in bits 24-31, the red component in bits 16-23, the green component in bits 8-15, and the blue component in bits 0-7.
+Color(int r, int g, int b)
+Creates an opaque sRGB color with the specified red, green, and blue values in the range (0 - 255).
+Color(int r, int g, int b, int a)
+Creates an sRGB color with the specified red, green, blue, and alpha values in the range (0 - 255).
+
+
+8.18
+0-255
+
+8.19
+Above the Color class.
+
+8.20
+cannot find symbol - class color
+
+8.27
+One parameter of type double
+
+public static double sqrt(double a)
+Returns the correctly rounded positive square root of a double value.
+Returns:
+the positive square root of a. If the argument is NaN or less than zero, the result is NaN.
+
+8.28
+max(double a, double b)
+Returns the greater of two double values.
+
+8.29
+distance - distance Math.sqrt (dx*dx + dy*dy);
+dx - dx other.getExactX() - this.getExactX();
+dy - dy other.getExactY() - this.getExactY();
+
+8.30
+When running sunAndPlanet(), sunAndTwoPlanets(), and sunPlanetMoon() act with gravitational forces acting on bodies in proportion to their mass.
+
+8.

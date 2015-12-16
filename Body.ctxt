@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Body()
+comment0.text=\r\n\ Construct\ a\ Body\ with\ default\ size,\ mass,\ velocity\ and\ color.\r\n
+comment1.params=size\ mass\ velocity\ color
+comment1.target=Body(int,\ double,\ Vector,\ java.awt.Color)
+comment1.text=\r\n\ Construct\ a\ Body\ with\ a\ specified\ size,\ mass,\ velocity\ and\ color.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act.\ That\ is\:\ apply\ \ the\ gravitation\ forces\ from\r\n\ all\ other\ bodies\ around,\ and\ then\ move.\r\n
+comment3.params=
+comment3.target=double\ getMass()
+comment3.text=\r\n\ Return\ the\ mass\ of\ this\ body.\r\n
+comment4.params=
+comment4.target=void\ applyForces()
+comment4.text=\r\n\ Apply\ forces\ on\ body.\r\n
+comment5.params=other
+comment5.target=void\ applyGravity(Body)
+comment5.text=\r\n\ Apply\ gravity\ forces\ on\ body.\r\n
+numComments=6
